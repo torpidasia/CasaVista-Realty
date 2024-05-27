@@ -1,0 +1,12 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  background-color: #1a202c; /* Tailwind's bg-gray-900 */
+  color: #fff; /* Tailwind's text-white */
+  font-family: 'Roboto', sans-serif;
+}
